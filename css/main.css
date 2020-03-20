@@ -1,12 +1,12 @@
 /* Text Elements */
 
 h1 {
-  color: #fff;
+  color: #4FA1EB;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1.welcome-title {
@@ -25,7 +25,7 @@ h1.gray.welcome-title {
 
 h2 {
   margin-bottom: 2.187rem;
-  color: #fc8a1a;
+  color: #4FA1EB;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -78,7 +78,7 @@ h4.gray {
 }
 
 p.paragraph {
-  color: #808080;
+  color: #000;
   font-weight: 300;
   font-size: .81rem;
   font-family: 'Roboto', sans-serif;
@@ -97,10 +97,12 @@ p.paragraph.intro-paragraph {
   margin-bottom: 1.25rem;
   margin-left: auto;
   max-width: 50rem;
-  color: rgba(30, 30, 30, .5);
+  color: #4FA1EB;
   text-align: center;
+  font-weight: 600;
   font-size: 1.06rem;
-  line-height: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
 }
 
 p.paragraph.action-paragraph {
@@ -131,7 +133,7 @@ a.link-text.nav-link {
   margin-top: .312rem;
   margin-bottom: .47rem;
   padding-bottom: .312rem;
-  color: #fff;
+  color: #000;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
@@ -176,7 +178,7 @@ a.link-button.btn.ignition {
   padding: 1.375rem 1.25rem 1.25rem;
   max-width: 50rem;
   width: 100%;
-  background-color: #fc6300;
+  background-color: #DBDD24;
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
@@ -190,7 +192,7 @@ a.link-button.subscribe {
   padding: 1.375rem 1.25rem 1.25rem;
   max-width: 50rem;
   width: 100%;
-  background-color: #fc6300;
+  background-color: #4FA1EB;
   color: #fff;
   vertical-align: baseline;
   white-space: normal;
@@ -238,7 +240,7 @@ body > .row > [class*='col-xs-'] {
 
 body > .row.nav-row {
   width: 100%;
-  background-color: #4c4c4c;
+  background-color: #FFFFFF;
 }
 
 body > .row.wecome-row {
@@ -306,7 +308,7 @@ body > .row.subscribe {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   width: 100%;
-  background-color: #e6e6e6;
+  background-color: #DBDD24;
 }
 
 body > .row > [class*='col-xs-'].welcome-column {
@@ -447,7 +449,7 @@ div.responsive-picture.gallery-image {
   }
 
   a.link-text.current {
-    color: #f08537;
+    color: #DBDD24;
   }
 
   /* Interaction Elements */
