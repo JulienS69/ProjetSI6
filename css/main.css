@@ -1,7 +1,7 @@
 /* Text Elements */
 
 h1 {
-  color: #4FA1EB;
+  color: #09A4EE;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -25,7 +25,7 @@ h1.gray.welcome-title {
 
 h2 {
   margin-bottom: 2.187rem;
-  color: #4FA1EB;
+  color: #09A4EE;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .06rem;
@@ -97,7 +97,7 @@ p.paragraph.intro-paragraph {
   margin-bottom: 1.25rem;
   margin-left: auto;
   max-width: 50rem;
-  color: #4FA1EB;
+  color: #09A4EE;
   text-align: center;
   font-weight: 600;
   font-size: 1.06rem;
@@ -178,7 +178,7 @@ a.link-button.btn.ignition {
   padding: 1.375rem 1.25rem 1.25rem;
   max-width: 50rem;
   width: 100%;
-  background-color: #DBDD24;
+  background-color: #F8BC1B;
   color: #fff;
   font-weight: 300;
   font-size: 1rem;
@@ -192,7 +192,7 @@ a.link-button.subscribe {
   padding: 1.375rem 1.25rem 1.25rem;
   max-width: 50rem;
   width: 100%;
-  background-color: #4FA1EB;
+  background-color: #09A4EE;
   color: #fff;
   vertical-align: baseline;
   white-space: normal;
@@ -304,11 +304,32 @@ body > .row.rocket {
   background-repeat: repeat;
 }
 
+  body > .row > [class*='col-xs-'].activities-column.buttons {
+    z-index: auto;
+    overflow: visible;
+  }
+  
+span.link-button-text.activities-button-text {
+  display: block;
+  float: none;
+  color: #fff;
+    body > .row > [class*='col-xs-'].activities-column.buttons {
+    z-index: auto;
+    overflow: visible;
+  }
+  
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
 body > .row.subscribe {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
   width: 100%;
-  background-color: #DBDD24;
+  background-color: #F8BC1B;
 }
 
 body > .row > [class*='col-xs-'].welcome-column {
@@ -449,7 +470,7 @@ div.responsive-picture.gallery-image {
   }
 
   a.link-text.current {
-    color: #DBDD24;
+    color: #F8BC1B;
   }
 
   /* Interaction Elements */
