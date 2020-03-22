@@ -177,6 +177,7 @@ a.link-text.footer-nav-link2 {
   margin-top: .625rem;
   margin-bottom: .625rem;
   color: #f08537;
+  background-color: #F8BC1B;
   vertical-align: middle;
   font-size: .87rem;
   font-family: 'Roboto', sans-serif;
@@ -607,12 +608,6 @@ div.responsive-picture.gallery-image {
     float: right;
     margin-top: 0;
     width: auto;
-  }
-.img {
-    height : 200px;
-    width : 300px ;
-    float: center;
-    style; text-align: center;
   }
 
   .rule.orange.small {
