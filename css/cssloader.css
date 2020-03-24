@@ -2,7 +2,7 @@ body
 {
     margin: 0;
     padding: 0;
-    background-color: #262626;
+    background-color: #333333;
 }
 
 @keyframes animate
@@ -25,8 +25,7 @@ body
     }
 }
 
-.cup
-{
+#loader {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,13 +39,11 @@ body
     border-top-right-radius: 5px;
     background-image: url(https://i.ibb.co/gSXvJ35/water.png);
     background-repeat: repeat-x;
-    animation-duration: 3s;
+    animation: animate 10s linear infinite;
     box-shadow: 0 0 0 6px #FFF, 0 20px 35px rgba(0,0,0,1);
 }
 
-
-
-.cup::before
+#loader::before
 {
     content: '';
     position: absolute;
@@ -57,4 +54,28 @@ body
     top: 40px;
     border-top-right-radius: 35px;
     border-bottom-right-radius: 35px;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
 }
