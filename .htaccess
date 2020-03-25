@@ -1,0 +1,17 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.leschassagnes\.codes [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.leschassagnes.codes/$1 [R,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^leschassagnes\.codes [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.leschassagnes.codes/$1 [R,L]
+</IfModule>

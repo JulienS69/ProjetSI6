@@ -1,81 +1,23 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background-color: #333333;
-}
 
-@keyframes animate
-{
-    0%
-    {
-        background-position: 0px 100px;
-    }
-    40%
-    {
-        background-position: 1000px -70px;
-    }
-    80%
-    {
-        background-position: 1500px -80px;
-    }
-    100%
-    {
-        background-position: 1000px 100px;
-    }
-}
 
-#loader {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 150px;
-    height: 180px;
-    border: 6px solid #262626;
-    border-top: 2px solid transparent;
-    border-radius: 15px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    background-image: url(https://i.ibb.co/gSXvJ35/water.png);
-    background-repeat: repeat-x;
-    animation: animate 10s linear infinite;
-    box-shadow: 0 0 0 6px #FFF, 0 20px 35px rgba(0,0,0,1);
+svg {
+  position: absolute;
+  width: 240px;
+  height: 120px;
+  top: 0; right: 0;
+  bottom: 0; left: 0; 
+  margin: auto;
 }
-
-#loader::before
-{
-    content: '';
-    position: absolute;
-    width: 50px;
-    height: 80px;
-    border: 6px solid #FFF;
-    right: -56px;
-    top: 40px;
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
+.credit {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
   text-align: center;
+}
+
+.credit a {
+  color: #FDB515;
+  font: 800 75% "Open Sans", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
 }
